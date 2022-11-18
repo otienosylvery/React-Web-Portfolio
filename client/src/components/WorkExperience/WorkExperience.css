@@ -1,0 +1,26 @@
+.work-experience-section{
+    margin-top: 70px;
+}
+.project-tech p{
+    border-radius: 90px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.project-tech p:hover{
+    background-color: gold;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: black;
+}
+
+.year-class{
+    color: black;
+}
+
+.time-line{
+    margin-top: 20px;
+}

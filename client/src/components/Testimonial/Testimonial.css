@@ -1,0 +1,30 @@
+.testimonial-section{
+    margin-top: 70px;
+    height: 80vh;
+}
+
+.content-slider{
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 250px;
+}
+
+.testimonial-slider img.center-image{
+    height: 80px;
+    width: 80px;
+    border: 5px solid tomato;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+}
