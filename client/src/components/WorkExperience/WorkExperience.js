@@ -180,7 +180,7 @@ const WorkExperience = () => {
     ]
 
   return (
-    <div className='container work-experience-section'>
+    <div className='container work-experience-section' id='work-experience'>
 
         <div className='section-title'>
 

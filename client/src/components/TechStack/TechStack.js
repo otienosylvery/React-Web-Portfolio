@@ -96,7 +96,7 @@ const TechStack = () => {
     }
     
   return (
-    <div className='container techstack-section'>
+    <div className='container techstack-section' id='tech-stack'>
 
         <div className='section-title'>
 

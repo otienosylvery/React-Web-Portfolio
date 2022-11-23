@@ -49,11 +49,12 @@ const Testimonial = () => {
 
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        autoplay: true,
+        slidesToShow: 3,
         initialSlide: 0,
+        rows: 1,
         responsive: [
           {
             breakpoint: 1024,
@@ -83,7 +84,7 @@ const Testimonial = () => {
       };
 
   return (
-    <div className='container testimonial-section'>
+    <div className='container testimonial-section' id='testimonial'>
         
         <div className='section-title'>
 

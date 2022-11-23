@@ -34,7 +34,7 @@ const Education = () => {
         "#5cab5f"
     ]
   return (
-    <div className='container education-section'>
+    <div className='container education-section' id='education'>
         <div className='section-title'>
 
             <h5>Education</h5>
