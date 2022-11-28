@@ -7,12 +7,15 @@ height: 400px;
 }
 
 
+
+
 .about-image img{
     height: 300px;
     width: 300px;
     border-radius: 190px;
     margin-top: 50px;
     margin: 50px;
+    object-fit: cover;
     
 }
 
@@ -31,4 +34,10 @@ height: 400px;
     margin: 1 auto;
     background-color: yellow;
     text-align: center;
+}
+
+@media (max-width:1000px){
+    .about-section{
+        height: auto;
+    }
 }

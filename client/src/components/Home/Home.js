@@ -4,9 +4,16 @@ import './Home.css'
 import Typewriter from 'typewriter-effect';
 import MyCv from './my_cv.pdf'
 
-const Home = () => {
+const Home = ({theme, changeTheme}) => {
   return (
     <div  className='container-fluid home' id='home'>
+
+      <div className='themeChange' onClick={changeTheme}>
+
+        {theme === 'lightTheme' ? (<p>Dark</p>):(<p>Light</p>)}
+
+
+      </div>
 
       <div className='container home-content'>
 

@@ -64,3 +64,21 @@
     text-decoration: none;
     color: black;
 }
+
+.themeChange{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #001cce;
+    right: 0;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: fixed;
+    top: 150;
+    margin-top: 250px;
+    border-radius: 90px;
+    cursor: pointer;
+    z-index: 1;
+}

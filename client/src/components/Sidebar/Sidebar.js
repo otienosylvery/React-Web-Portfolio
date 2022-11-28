@@ -7,7 +7,7 @@ import SidebarList from './SidebarList';
 
 
 
-const Sidebar = () => {
+const Sidebar = ({theme,changeTheme}) => {
 
   const[expandSidebar, setExpandSidebar] = useState(false);
 
@@ -38,7 +38,7 @@ const Sidebar = () => {
       </div>
 
       <div className='container'>
-        <Home/>
+        <Home changeTheme={changeTheme} theme={theme}/>
       </div>
     </div>
   )
