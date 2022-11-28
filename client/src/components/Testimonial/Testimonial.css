@@ -1,6 +1,6 @@
 .testimonial-section{
     margin-top: 70px;
-    height: 80vh;
+    margin-bottom: 30px;
 }
 
 .content-slider{
@@ -12,7 +12,6 @@
     border-radius: 5px;
     margin-top: 50px;
     text-align: center;
-    margin-bottom: 30px;
     cursor: pointer;
     height: 210px;
 

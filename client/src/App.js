@@ -16,9 +16,9 @@ const App = ()=>{
     <>
     <Sidebar/>
     <About/>
+    <WorkExperience/>
     <TechStack/>
     <Projects/>
-    <WorkExperience/>
     <Education/>
     <Testimonial/>
     <Contact/>

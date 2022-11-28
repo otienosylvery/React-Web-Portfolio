@@ -1,6 +1,9 @@
 .contact-section{
+    margin-top: 90px;
     height: 600px;
+    margin-bottom: 30px;
 }
+
 
 .contact-form-image img{
     height: 600px;

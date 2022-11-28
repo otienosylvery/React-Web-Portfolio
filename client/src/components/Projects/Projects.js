@@ -109,7 +109,7 @@ const Projects = () => {
     ];
 
   return (
-    <div className='container'>
+    <div className='container' id='projects'>
         
         <div className='about-title'>
 
