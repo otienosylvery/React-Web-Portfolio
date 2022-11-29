@@ -13,6 +13,7 @@
     "react-scroll": "^1.8.8",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
+    "react-switch": "^7.0.0",
     "react-vertical-timeline-component": "^3.5.2",
     "slick-carousel": "^1.8.1",
     "typewriter-effect": "^2.19.0",

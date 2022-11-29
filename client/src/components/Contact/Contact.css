@@ -1,7 +1,13 @@
 .contact-section{
     margin-top: 90px;
     height: 950px;
-    margin-bottom: 30px;
+}
+
+#darkTheme .contact-form-input-area{
+    box-shadow: none;
+    background-color: #38004c;
+    border-radius: 5px;
+
 }
 
 
@@ -10,6 +16,7 @@
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
+    margin-bottom: 50px;
 }
 
 .contact-form input{
@@ -20,6 +27,15 @@
     margin-bottom: 20px;
 }
 
+#darkTheme .contact-form input{
+    box-shadow: none;
+    background-color: #38004c;
+    border-radius: 5px;
+    border: 2px solid tomato;
+
+}
+
+
 .job-status-select{
     height: 50px;
     border-radius: 10px;
@@ -27,12 +43,32 @@
     margin-bottom: 20px;
     width: 100%;
 }
+
+#darkTheme .job-status-select{
+    box-shadow: none;
+    background-color: #38004c;
+    border-radius: 5px;
+    border: 2px solid tomato;
+    color: white;
+
+}
+
 #message{
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 20px;
     width: 100%;
 }
+
+#darkTheme #message{
+    box-shadow: none;
+    background-color: #38004c;
+    border-radius: 5px;
+    border: 2px solid tomato;
+    color: white;
+
+}
+
 
 .submit-button{
     background-color: rgb(59, 52, 52);
@@ -68,4 +104,12 @@ box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
 -webkit-box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
 -moz-box-shadow: 15px 9px 9px -2px rgba(230,224,224,0.86);
 
+
+}
+
+.text-center{
+    margin-top: 50px;
+}
+.submit-button{
+    margin-bottom: 50px;
 }

@@ -30,6 +30,25 @@
     margin-bottom: 40px;
 }
 
+#darkTheme .tech-content{
+    box-shadow: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #38004c;
+    
+    box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0,0,0,0.42);
+}
+
+#darkTheme .tech-content:hover{
+    box-shadow: none;
+    color: white;
+    border-radius: 5px;
+    background-color: tomato;
+    transition-duration: 1s;
+}
+
 .tech-content-marked{
     background-color: tomato;
     color: white;

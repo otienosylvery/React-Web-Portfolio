@@ -24,3 +24,7 @@
 .time-line{
     margin-top: 20px;
 }
+
+#darkTheme .year-class{
+    color: white;
+}

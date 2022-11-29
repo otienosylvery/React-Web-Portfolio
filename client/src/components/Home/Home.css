@@ -78,7 +78,26 @@
     position: fixed;
     top: 150;
     margin-top: 250px;
-    border-radius: 90px;
+    border-radius: 5px;
     cursor: pointer;
     z-index: 1;
+}
+
+.light-them-icon{
+    animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:1000px){
+    .themeChange{
+        display: none;
+    }
 }

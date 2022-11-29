@@ -38,7 +38,7 @@ const Sidebar = ({theme,changeTheme}) => {
       </div>
 
       <div className='container'>
-        <Home changeTheme={changeTheme} theme={theme}/>
+        <Home changeTheme= {changeTheme} theme={theme}/>
       </div>
     </div>
   )

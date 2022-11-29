@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import './NavbarMobileView.css'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
+import Switch from 'react-switch'
+
 import { 
     FcHome,
     FcNightPortrait,
@@ -14,7 +16,7 @@ import {
 import {MdBiotech} from "react-icons/md"
 import { MdCastForEducation } from 'react-icons/md';
 import {Link} from 'react-scroll'
-const NavbarMobileView = () => {
+const NavbarMobileView = ({theme, changeTheme}) => {
 
     const [open, setOpen] = useState(false);
 
@@ -117,6 +119,11 @@ const NavbarMobileView = () => {
                         <FcContacts size={25}/>Contact
                         </Link>
                         
+                    </li>
+
+                    <li className='nav-item-mobileview'>
+                        <Switch onChange={changeTheme} checked={theme==='lightTheme'}/>
+
                     </li>
                    </ul>
     

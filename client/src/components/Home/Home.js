@@ -3,6 +3,11 @@ import './Home.css'
 
 import Typewriter from 'typewriter-effect';
 import MyCv from './my_cv.pdf'
+import {BsFillMoonStarsFill, BsSun} from 'react-icons/bs'
+import {IoSunny} from 'react-icons/io5'
+
+
+
 
 const Home = ({theme, changeTheme}) => {
   return (
@@ -10,7 +15,7 @@ const Home = ({theme, changeTheme}) => {
 
       <div className='themeChange' onClick={changeTheme}>
 
-        {theme === 'lightTheme' ? (<p>Dark</p>):(<p>Light</p>)}
+        {theme === 'lightTheme' ? (<p><BsFillMoonStarsFill size={40}/></p>):(<p className='light-them-icon'><IoSunny size={40}/></p>)}
 
 
       </div>
