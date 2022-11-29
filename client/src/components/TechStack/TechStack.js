@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './TechStack.css'
+import Fade from 'react-reveal/Fade'
 
 const TechStack = () => {
     const data=[
@@ -96,6 +97,7 @@ const TechStack = () => {
     }
     
   return (
+    <Fade right>
     <div className='container techstack-section' id='tech-stack'>
 
         <div className='section-title'>
@@ -132,6 +134,7 @@ const TechStack = () => {
         )}
         
     </div>
+    </Fade>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectList from './ProjectList';
 import './Project.css';
+import Fade from 'react-reveal/Fade'
 
 const Projects = () => {
 
@@ -109,6 +110,8 @@ const Projects = () => {
     ];
 
   return (
+
+    <Fade right>
     <div className='container' id='projects'>
         
         <div className='about-title'>
@@ -133,6 +136,8 @@ const Projects = () => {
 
         </div>
     </div>
+
+    </Fade>
   )
 }
 

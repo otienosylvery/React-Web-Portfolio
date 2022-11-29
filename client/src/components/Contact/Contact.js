@@ -1,11 +1,14 @@
 import React from 'react'
 import './Contact.css'
+import Fade from 'react-reveal/Fade'
 
 
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 const Contact = () => {
   return (
+
+    <Fade right>
     <div className='container contact-section' id='contact'>
         <div className='row'>
 
@@ -57,6 +60,8 @@ const Contact = () => {
 
         </div>
     </div>
+
+    </Fade>
   )
 }
 

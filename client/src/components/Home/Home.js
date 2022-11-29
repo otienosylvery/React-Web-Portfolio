@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import MyCv from './my_cv.pdf'
 import {BsFillMoonStarsFill, BsSun} from 'react-icons/bs'
 import {IoSunny} from 'react-icons/io5'
+import Fade from 'react-reveal/Fade'
 
 
 
@@ -21,6 +22,8 @@ const Home = ({theme, changeTheme}) => {
       </div>
 
       <div className='container home-content'>
+
+        <Fade right>
 
         <h1>Hi I'm a</h1>
         <h3>
@@ -41,6 +44,9 @@ const Home = ({theme, changeTheme}) => {
           />
         </h3>
 
+        </Fade>
+
+        <Fade bottom>
         <div className='action-button'>
 
           <div className='hire-me-button'>
@@ -52,6 +58,7 @@ const Home = ({theme, changeTheme}) => {
           </div>
 
         </div>
+        </Fade>
       </div>
 
     </div>
