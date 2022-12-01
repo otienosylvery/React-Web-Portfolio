@@ -25,7 +25,7 @@ const Home = ({theme, changeTheme}) => {
 
         <Fade right>
 
-        <h1>Hi I'm a</h1>
+        <h1>Hi I'm Sylvery Otieno</h1>
         <h3>
           <Typewriter
             options={{

@@ -11,6 +11,17 @@ const ProjectList = ({name, des, projectLink,techUsed}) => {
         setShowProjectDetails(!showProjectDetails);
     }
     
+    const colors = [
+        '#591310',
+        '#ff8042',
+        '#001cce',
+        '#4b088a',
+        '#3a5f99',
+        '#9ae39c',
+        '#116613'
+
+
+    ]
   return (
 
     <div className={showProjectDetails ? 'project-list-opened project-list': 'project-list'} onClick={handleShowAndCollapse}
@@ -40,7 +51,7 @@ const ProjectList = ({name, des, projectLink,techUsed}) => {
             {techUsed && techUsed.map((tech, index)=>(
                 <div className='col-xl-3 col-lg-3 col-md-6 col-sm-12' key={index}>
                     <div className='tech-used-in-project'>
-                        <p>{tech.techName}</p>
+                        <p style={{backgroundColor:colors[index]}}>{tech.techName}</p>
                     </div>
                 </div>
             ))}
