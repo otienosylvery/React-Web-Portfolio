@@ -12,6 +12,8 @@ import './App.css';
 
 import ScrollToTop from 'react-scroll-to-top'
 
+// console.log(process.env.REACT_APP_API_SENDGRID)
+
 export const ThemeContext = createContext(null);
 
 const App = ()=>{
