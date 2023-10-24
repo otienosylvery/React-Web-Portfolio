@@ -5,64 +5,37 @@ import Fade from 'react-reveal/Fade'
 const TechStack = () => {
     const data=[
         {
-            name: 'Full Stack Developer'
+            name: 'Java'
         },
         {
             name: 'Kotlin'
         },
         {
-            name: 'Java'
+            name: 'Spring'
         },
         {
-            name: 'React js'
+            name: 'Android Studio'
         },
         {
-            name: 'Node js'
+            name: 'Javascript',
         },
         {
-            name: 'Express js'
+            name: 'React'
         },
         {
-            name: 'Angular js'
+            name: 'Angular'
         },
         {
-            name: 'Vanilla js'
+            name: 'CMS'
         },
         {
-            name: 'Javascript'
+            name: 'HTM/CSS'
         },
         {
-            name: 'Typescript'
+            name: 'MySQL'
         },
         {
-            name: 'Python'
-        },
-        {
-            name: 'Django'
-        },
-        {
-            name: 'UI/ UX'
-        },
-        {
-            name: 'HTML'
-        },
-        {
-            name: 'CSS'
-        },
-        {
-            name: 'C#'
-        },
-        {
-            name: 'My SQL'
-        },
-        {
-            name: 'Web Development'
-        },
-        {
-            name: 'Android'
-        },
-        {
-            name: 'iOS '
+            name: 'Material UI/ UX'
         },
     ]
 
