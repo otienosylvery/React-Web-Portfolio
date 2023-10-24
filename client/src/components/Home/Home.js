@@ -58,10 +58,14 @@ const Home = ({theme, changeTheme}) => {
             </BrowserRouter> */}
         <div className='action-button'>
             <BrowserRouter>
-            <div  className='hire-me-button'>
             
+            <Link to="#contact" smooth={true} style={{textDecoration:'none', color:'black'}}><div  className='hire-me-button'>
+            Hire Me</div></Link>
+          
+            {/* <div  className='hire-me-button'>
+            Hire Me
             <Link to="#contact" smooth={true} style={{textDecoration:'none', color:'black'}}>Hire Me</Link>
-          </div>
+          </div> */}
             </BrowserRouter>
           
 
