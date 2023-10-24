@@ -33,16 +33,10 @@ const About = () => {
 
                     <Fade right>
                     <p>
-
-                    Contrary to popular belief, Lorem Ipsum is n
-                    ot simply 
-                    random 
-                    text. It has roots in
-                     a piece of class
-                     ical Latin literature from
-                      45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect
-
-
+                      I am a dedicated Software Developer with a passion for creating innovative solutions that heavily impact in the digital world.
+                      <br></br>
+                      <br></br>
+                      With an experience spanning over 4 years, I have gannered skills as a Fullstack Developer having worked on a wide range of products from Mobile Applications design and development to design and development of complex Web Applications both in front-end and back-end development. My expertise spans multiple programming languages and technologies including Java, Kotlin, JavaScript, TypeScript, HTML, CSS, Spring and MySQL.                 
                     </p>
                     </Fade>
                   </div>
