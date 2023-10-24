@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css'
-// import Contact from "../components/Contact" implement
-import { BrowserRouter,Routes, Route,Link } from 'react-router-dom';
+import Contact from "../Contact/Contact"
+import { BrowserRouter,Routes, Route} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link'
 
 import Typewriter from 'typewriter-effect';
 import MyCv from './my_cv.pdf'
@@ -56,13 +57,13 @@ const Home = ({theme, changeTheme}) => {
             </Routes>
             </BrowserRouter> */}
         <div className='action-button'>
-
-          <div  className='hire-me-button'>
-          Hire Me
+            <BrowserRouter>
+            <div  className='hire-me-button'>
             
-            {/* <Link to="/contact">Hire Me</Link> */}
-            {/* implement link to do */}
+            <Link to="#contact" smooth={true} style={{textDecoration:'none', color:'black'}}>Hire Me</Link>
           </div>
+            </BrowserRouter>
+          
 
           <div className='get-resume-button'>
             <a href={MyCv} download='Sylvery Otieno Resume.pdf'>Get Resume</a>
