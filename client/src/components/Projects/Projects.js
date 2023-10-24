@@ -7,26 +7,29 @@ const Projects = () => {
 
     const data = [
         {
-            name:"Full Stack Job Portal",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
+            name:"Web Portfolio Project",
+            des:"This is a full stack Web Portfolio application where a potiential client/ employer can view my overall portfolio statiting my tech skills, years of experince as well listing those products that I have developed. It allows a client to initiate communication through a form implementation of the API endpoint for e-mail.",
+            projectLink: "https://github.com/otienosylvery/React-Web-Portfolio",
             techUsed:[
                 {
-                    techName:"Node js"
+                    techName:"React JS"
                 },
                 {
-                    techName:"Express js"
+                    techName:"MySQL"
                 },
                 {
-                    techName:"Next js"
+                    techName:"CSS"
+                },
+                {
+                    techName:"REST API"
                 },
             ]
         },
 
         {
-            name:"Mobile Development Portal",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
+            name:"MiNews Android News App",
+            des:"An Android News App that picks trending news from both random and user defined locations using the news endpoint.",
+            projectLink: "https://github.com/otienosylvery/MiNews",
             techUsed:[
                 {
                     techName:"REST API"
@@ -37,47 +40,35 @@ const Projects = () => {
                 {
                     techName:"Kotlin"
                 },
-            ]
-        },
-
-        {
-            name:"Web Development Portal",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
-            techUsed:[
                 {
-                    techName:"HTML"
-                },
-                {
-                    techName:"CSS"
-                },
-                {
-                    techName:"React js"
+                    techName:"Android Studio"
                 },
             ]
         },
 
         {
-            name:"Online Learning Platform",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
+            name:"MiWeather Weather App",
+            des:"Android Weather App to provide current weather conditions as well as a 7-day weather focus implemented with Jetpack Compose.",
+            projectLink: "https://github.com/otienosylvery/MiNews",
             techUsed:[
                 {
-                    techName:"Node js"
+                    techName:"Kotlin"
                 },
                 {
-                    techName:"Express js"
+                    techName:"REST API"
                 },
                 {
-                    techName:"Next js"
+                    techName:"Android Studio"
+                },
+                {
+                    techName:"MVVM"
                 },
             ]
         },
-
         {
             name:"E-Commerce App",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
+            des:"Fullstack E-Commerce site allowing a user to browse, add items to cart and complete purchase",
+            projectLink: "https://github.com/otienosylvery/e-commerce",
             techUsed:[
                 {
                     techName:"Angular"
@@ -88,22 +79,8 @@ const Projects = () => {
                 {
                     techName:"Typescript"
                 },
-            ]
-        },
-
-        {
-            name:"Full Stack Job Portal",
-            des:"Contrary to popular belief, Lorem Ipsum is n ot simply random text. It has roots in a piece of class ical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consect",
-            projectLink: "https://www.udemy.com/course/react-responsive-portfolio-website-complete-react-project/learn/lecture/33140086#content",
-            techUsed:[
                 {
-                    techName:"Node js"
-                },
-                {
-                    techName:"Express js"
-                },
-                {
-                    techName:"Next js"
+                    techName:"MySQL"
                 },
             ]
         },

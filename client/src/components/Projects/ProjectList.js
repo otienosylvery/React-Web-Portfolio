@@ -58,7 +58,7 @@ const ProjectList = ({name, des, projectLink,techUsed}) => {
         </div>
 
         <div className='live-demo-button'>
-            <a target='_' href={projectLink}>Live Demo</a>
+            <a target='_' href={projectLink}>Demo</a>
         </div>
 
     </div>

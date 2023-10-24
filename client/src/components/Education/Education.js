@@ -20,12 +20,12 @@ const Education = () => {
             description:'Second Class Upper Honors Graduate',
             year: '2014 - 2018'
         },
-        {
-            institutionName: 'St. Joseph\'s School Rapogi',
-            qualification:'KCSE Certificate',
-            description:'Mean Grade: A',
-            year: '2010 - 2013'
-        }
+        // {
+        //     institutionName: 'St. Joseph\'s School Rapogi',
+        //     qualification:'KCSE Certificate',
+        //     description:'Mean Grade: A',
+        //     year: '2010 - 2013'
+        // }
     ]
 
     const colors = [
