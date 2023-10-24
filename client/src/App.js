@@ -1,4 +1,5 @@
 import React, {useState, createContext} from 'react';
+import {BrowserRouter, Routes, Route}  from 'react-router-dom';
 import Sidebar from './components/Sidebar/Sidebar';
 import About from './components/About/About';
 import TechStack from './components/TechStack/TechStack';

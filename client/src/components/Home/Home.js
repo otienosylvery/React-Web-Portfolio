@@ -1,11 +1,14 @@
 import React from 'react';
 import './Home.css'
+// import Contact from "../components/Contact" implement
+import { BrowserRouter,Routes, Route,Link } from 'react-router-dom';
 
 import Typewriter from 'typewriter-effect';
 import MyCv from './my_cv.pdf'
 import {BsFillMoonStarsFill, BsSun} from 'react-icons/bs'
 import {IoSunny} from 'react-icons/io5'
 import Fade from 'react-reveal/Fade'
+
 
 
 
@@ -47,10 +50,18 @@ const Home = ({theme, changeTheme}) => {
         </Fade>
 
         <Fade bottom>
+        {/* <BrowserRouter>
+            <Routes>
+              <Route path="/contacts" element={<Contact/>}></Route>
+            </Routes>
+            </BrowserRouter> */}
         <div className='action-button'>
 
-          <div className='hire-me-button'>
-            Hire Me
+          <div  className='hire-me-button'>
+          Hire Me
+            
+            {/* <Link to="/contact">Hire Me</Link> */}
+            {/* implement link to do */}
           </div>
 
           <div className='get-resume-button'>
